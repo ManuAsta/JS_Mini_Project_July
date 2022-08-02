@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body >
+        <div class="container">
+            <div class="content">
+                <form class="login_form" action="home.html" name="form" onsubmit="return validated()">
+                    <center><h1>Login Form</h1></center>
+                    <hr><br>
+                    <div class="box">
+                        <label for="email">Email or Phone</label> <br>
+                        <input id="email" name="email" type="text"  class="inputs">
+                        <div id="email_error" class="errors">Please Enter your Email or Phone</div>
+                    </div>
+                    <div class="box">
+                        <label for="password">Password</label> <br>
+                        <input id="password" name="password" type="password" class="inputs">
+                        <div id="password_error" class="errors">Please fill your Password</div>
+                    </div>
+                    <div class="box" style="padding-bottom:20px ;">
+                        <button type="submit">Login</button>
+                    </div>   
+                </form>   
+            </div>
+        </div>
+    </body>
+    <script src="valid.js"></script>
+</html>

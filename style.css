@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:url('Img/background.jpg');
+    font-family: 'Ubuntu';
+}
+
+.container{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    border: 1px solid rgb(182, 175, 175);
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(88, 60, 60);
+    font-size: 15px;
+}
+h1{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.content input{
+    padding: 5px;
+    outline: none;
+}
+
+.inputs{
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+.box{
+   padding-top: 15px;
+   padding-bottom: 25px;
+}
+.content button{
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: Ubuntu;
+    color: rgb(0, 0, 0);
+    background-color: rgb(199, 191, 191);
+    transition: 0.7s;
+}
+.errors{
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #C62828;
+    font-size: smaller;
+    width: 300px;
+    background-color: rgba(255,0,0,0.1);
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+
+
+
